@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Jio.com Navbar]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ayushgautamLLC.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Navabr Redirections(failed)">
+    <classes>
+      <class name="ayushgautamLLC.Tests.Navbar_Redirections">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+          <include name="verifyNavbarLinks"/>
+        </methods>
+      </class> <!-- ayushgautamLLC.Tests.Navbar_Redirections -->
+    </classes>
+  </test> <!-- Navabr Redirections(failed) -->
+</suite> <!-- Failed suite [Jio.com Navbar] -->
